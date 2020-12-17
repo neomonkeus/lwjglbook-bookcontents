@@ -10,9 +10,17 @@ If your idea is to start creating 3D games in a short amount of time, you should
 By using this low level API you will have to go through many concepts and write a lot of lines of code before you see the results. 
 The benefit of doing it this way however is that you will get a much better understanding of 3D graphics and also have much more control.
 
-As said in the previous paragraphs we will be using Java for this book. We will be using Java 10, so you need to download the Java SDK from Oracle’s pages. Just choose the installer that suits your Operating System and install it. This book assumes that you have a moderate understanding of the Java language.
+## Getting Setup
+As mentioned previously we will be using Java throughout this book, so you need to download the JDK \(Java Development Kit\) from Oracle’s pages. 
+Note: We will be targeting and using features so need version at least Java 10.
+Just choose the installer that suits your Operating System and install it. 
+This book assumes that you have a moderate understanding of the Java language.
 
-You may use the Java IDE you want in order to run the samples. You can download IntelliJ IDEA which has good support for Java 10. Since Java 10 is only available, by now, for 64 bits platforms, remember to download the 64 bits version of IntelliJ. IntelliJ provides a free open source version, the Community version, which you can download from here: [https://www.jetbrains.com/idea/download/](https://www.jetbrains.com/idea/download/ "Intellij").
+### Code Editor
+You may want to use a code editor, generally called an IDE \(Integrated Development Enviroment\).
+The accompanying code samples for each chapter have project files for an IDE developed by JetBrains, called IntelliJ IDEA, IDE.
+JetBrains provides a free open source version, the IntelliJ Community Edition \(CE\), which you can download from here: [https://www.jetbrains.com/idea/download/](https://www.jetbrains.com/idea/download/ "Intellij").
+Remember to download the 64 bits version of IntelliJ.
 
 ![](/chapter01/intellij.png)
 
