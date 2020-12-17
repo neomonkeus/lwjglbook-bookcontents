@@ -24,13 +24,20 @@ Remember to download the 64 bits version of IntelliJ.
 
 ![](/chapter01/intellij.png)
 
-For building our samples we will be using [Maven](https://maven.apache.org/). Maven is already integrated in most IDEs and you can directly open the different samples inside them. Just open the folder that contains the chapter sample and IntelliJ will detect that it is a maven project.
+### Maven
+For building our samples we will be using [Maven](https://maven.apache.org/). 
+Maven is already integrated in most IDEs and you can directly open the different samples inside them. 
+Just open the folder that contains the chapter sample and IntelliJ will detect that it is a maven project.
 
 ![](/chapter01/maven_project.png)
 
-Maven builds projects based on an XML file named `pom.xml` \(Project Object Model\) which manages project dependencies \(the libraries you need to use\) and the steps to be performed during the build process. Maven follows the principle of convention over configuration, that is, if you stick to the standard project structure and naming conventions the configuration file does not need to explicitly say where source files are or where compiled classes should be located.
+Maven builds projects based on an XML file named `pom.xml` \(Project Object Model\) which manages project dependencies 
+\(the libraries you need to use\) and the steps to be performed during the build process. 
+Maven follows the principle of favouring convention over configuration, that is, there is a standard project structure and naming conventions. 
+By following the conventions you won't need to explicitly say where source files are or where compiled classes should be located.
 
-This book does not intend to be a maven tutorial, so please find the information about it in the web in case you need it.  The source code folder defines a parent project which defines the plugins to be used and collects the versions of the libraries employed.
+This book does not intend to be a maven tutorial, so please find more information about it on the web in case you need it.
+The source code folder defines a parent project which defines the plugins to be used and collects the versions of the libraries employed.
 
 LWJGL 3.1 introduced some changes in the way that the project is built. Now the base code is much more modular, and we can be more selective in the packages that we want to use instead of using a giant monolithic jar file. This comes at a cost: You now need to carefully specify the dependencies one by one. But the [download](https://www.lwjgl.org/download) page includes a fancy script that generates the pom file for you. In our case, we will just be using GLFW and OpenGL bindings. You can check what the pom file looks like in the source code.
 
