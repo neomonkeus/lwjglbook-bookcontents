@@ -1,6 +1,8 @@
 # First steps
 
-In this book we will learn the principal techniques involved in developing 3D games. We will develop our samples in Java and we will use the Lightweight Java Game Library \([LWJGL](http://www.lwjgl.org/)\). The LWJGL library enables the access to low-level APIs \(Application Programming Interface\) such as OpenGL.
+In this book we will learn the principal techniques involved in developing 3D games. 
+We will develop our samples in Java using the Lightweight Java Game Library \([LWJGL](http://www.lwjgl.org/)\). 
+The LWJGL library enables access to low-level APIs \(Application Programming Interface\) such as OpenGL.
 
 LWJGL is a low level API that acts like a wrapper around OpenGL. If your idea is to start creating 3D games in a short period of time maybe you should consider other alternatives like  \[JmonkeyEngine\]. By using this low level API you will have to go through many concepts and write lots of lines of code before you see the results. The benefit of doing it this way is that you will get a much better understanding of 3D graphics and also you can get better control.
 
