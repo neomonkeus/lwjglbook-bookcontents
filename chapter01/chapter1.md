@@ -22,14 +22,14 @@ The accompanying code samples for each chapter have project files for an IDE dev
 JetBrains provides a free open source version, the IntelliJ Community Edition \(CE\), which you can download from here: [https://www.jetbrains.com/idea/download/](https://www.jetbrains.com/idea/download/ "Intellij").
 Remember to download the 64 bits version of IntelliJ.
 
-![](/chapter01/intellij.png)
+![IntelliJ](intellij.png)
 
 ### Maven
 For building our samples we will be using [Maven](https://maven.apache.org/). 
 Maven is already integrated in most IDEs and you can directly open the different samples inside them. 
 Just open the folder that contains the chapter sample and IntelliJ will detect that it is a maven project.
 
-![](/chapter01/maven_project.png)
+![Maven](maven_project.png)
 
 Maven builds projects based on an XML file named `pom.xml` \(Project Object Model\) which manages project dependencies 
 \(the libraries you need to use\) and the steps to be performed during the build process. 
@@ -111,12 +111,13 @@ The jars that contain LWJGL classes, also contain the native libraries.
 LWJGL will also take care of extracting them and adding them to the path where the JVM will look for libraries.
 
 ## Chapter 1
-Chapter 1 source code is taken directly from the `Getting Started` sample in the LWJGL site \([http://www.lwjgl.org/guide](http://www.lwjgl.org/guide)\). 
-You will see that we are not using Swing or JavaFX as our GUI library. 
-Instead of that we are using [GLFW](www.glfw.org) which is a library to handle GUI components \(Windows, etc.\) and events \(key presses, mouse movements, etc.\) with an OpenGL context attached in a straight-forward way. 
-Previous versions of LWJGL provided a custom GUI API but, for LWJGL 3, GLFW is the preferred windowing API.
+Chapter 1 source code is taken directly from the `Getting Started` sample from the LWJGL site \([http://www.lwjgl.org/guide](http://www.lwjgl.org/guide)\). 
+You will see that we don't use Swing or JavaFX as our GUI library. 
+Instead, we are using [GLFW](www.glfw.org) which is a library to handle GUI components \(Windows, etc.\) and 
+events \(key presses, mouse movements, etc.\) with an OpenGL context attached in a straight-forward way. 
+Version prior to LWJGL 3 included a custom GUI API but, GLFW is now the preferred windowing API.
 
-The samples source code is very well documented and straightforward so we won’t repeat the comments here.
+The sample source code is very well documented and straight-forward so we won’t repeat the comments here.
 
 If you have your environment correctly set up you should be able to execute it and see a window with a red background.
 
